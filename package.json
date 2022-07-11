@@ -1,0 +1,14 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "some assignment",
+  "main": "script.js",
+  "scripts": {
+    "test": "live-server & json-server --watch db.json"
+  },
+  "author": "Vasko",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

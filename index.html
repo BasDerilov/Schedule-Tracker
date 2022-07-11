@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meeting planner</title>
+  </head>
+  <body>
+    <div id="new-item-container" class="form">
+      <label for="topic">Тема:</label>
+      <input type="text" name="topic" id="topic" /><br />
+      <label for="startTime">Започва в:</label>
+      <input type="time" id="startTime" name="startTime" /><br />
+      <label for="endTime">Свършва в:</label>
+      <input type="time" name="endTime" id="endTime" /><br />
+      <label for="date">Дата:</label>
+      <input type="date" id="date" name="date" />
+      <input type="button" value="Submit" id="submit" />
+    </div>
+    <div>
+      <table id="schedule">
+        <tr>
+          <th rowspan="3">Ден</th>
+          <th colspan="3">Програма</th>
+        </tr>
+        <tr>
+          <th colspan="2">Време</th>
+          <th rowspan="2">Тема</th>
+        </tr>
+        <tr>
+          <th>Начало</th>
+          <th>Край</th>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
